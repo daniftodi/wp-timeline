@@ -1,0 +1,7 @@
+<li>
+  <div>
+	<time>{{{time}}}</time>
+	<item-title>{{{title}}}</item-title>
+	{{{content}}}
+  </div>
+</li>
