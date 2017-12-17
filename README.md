@@ -1,4 +1,4 @@
-# Display Posts Shortcode #
+# WP Timeline #
 
 - **Contributors:** daniftodi
 - **Donate link:** https://paypal.me/diftodi
@@ -8,9 +8,11 @@
 
 Display a posts timeline
 
+![screenshot](https://preview.ibb.co/iyWzPm/Screenshot_from_2017_12_17_15_55_23.png)
+
 ## Description ##
 
-The *WP Timeline* was written to allow users to easily display timelines of posts without knowing PHP or editing template files.
+The *WP Timeline* was written to allow users to easily display timeline of posts without knowing PHP or editing template files.
 
 Add the shortcode in a post or page, and use the arguments to query based on tag, category, post type, and many other possibilities. You can also customize the output with parameters like: include_date, include_excerpt, and image_size.
 
@@ -22,7 +24,7 @@ Add the shortcode in a post or page, and use the arguments to query based on tag
 
 == Installation ==
 
-1. Upload `di-timeline` to the `/wp-content/plugins/` directory.
+1. Upload `wp-timeline` to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the *Plugins* menu in WordPress.
 1. Add the shortcode to a post or page.
 
@@ -258,3 +260,5 @@ Specify an unique ID to be used on the wrapper of this listing.
 Default: empty
 Example: [wp-timeline category="cars" wrapper_id="cars-listing"]
 
+*Based on *Display posts shortcut* https://wordpress.org/plugins/display-posts-shortcode/
+*Design from https://codepen.io/tutsplus/pen/ZKpNwm
